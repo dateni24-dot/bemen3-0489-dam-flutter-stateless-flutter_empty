@@ -37,7 +37,7 @@ class WelcomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             const Text(
-              'Start learning now',
+              'Start learning now!',
               style: TextStyle(
                 fontSize: 16,
                 color: Color.fromARGB(137, 0, 0, 0),
@@ -52,6 +52,8 @@ class WelcomeScreen extends StatelessWidget {
                 shape: const StadiumBorder(),
                 minimumSize: const Size(100, 40),
               ),
+
+              
               child: const Text('Login'),
             ),
             const SizedBox(height: 15),
